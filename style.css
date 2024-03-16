@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+.heading1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: aliceblue;
+    background-color: rgb(5, 162, 110);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 0.5rem; */
+}
+.choice{
+    height:20vmin;
+    width: max-content;
+    margin: 20px;
+    cursor: pointer;
+      
+}
+img{
+    height:18vmin;
+    width: 18vmin;
+    padding: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.5s;
+    
+}
+img:hover{
+    height:19vmin;
+    width: 19vmin;
+    padding: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    padding: 20px;
+}
+.score p{
+    font-size: 30px;
+    font-weight: 100;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.answer{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0.5rem;
+}
+
